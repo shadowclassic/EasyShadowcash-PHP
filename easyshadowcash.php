@@ -25,9 +25,10 @@
  * 
  * // Make calls to shadowcashd as methods for your object.
  * // Examples:
- * $shadowcash->is_ready();
+ * $shadowcash->getinfo();
  * $shadowcash->getblockcount();
- * $shadowcash->get_block_header_by_height(1);
+ * $shadowcash->getrawtransaction('9e79d2201393286e1ada3f0fbbe24b996a6cbcdabaa91b6701a8501e36fbf1e4',1);
+ * $shadowcash->getblock('0000002372e70c3e4113a41364acd0ad1b7e51b9a9d3014f7b1e1e11a4cc0256');
  * 
  */
 
