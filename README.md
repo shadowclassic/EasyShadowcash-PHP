@@ -13,13 +13,13 @@ Getting Started
 2. Initialize shadowcashd connection/object:
 
     ```php
-    $shadowcash = new Shadowcash();
+    $shadowcash = new Shadowcash('rpcuser','rpcpassword');
     ```
 
     Optionally, you can specify a host and port. Defaults are 127.0.0.1 and port 51736.
 
     ```php
-    $shadowcash = new Shadowcash('12.34.56.78','9999');
+    $shadowcash = new Shadowcash('rpcuser','rpcpassword','12.34.56.78','9999');
     ```
 
 3. Make calls to shadowcoind as methods for your object. Examples:
